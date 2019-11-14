@@ -1,26 +1,64 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import './Components/VerticalNav.css'
+
+import HorizontalNav from './Components/HorizontalNav'
+import AboutMe from './Components/AboutMe'
+import Projects from './Components/Projects'
+
+
+class App extends Component {
+  state = {
+    isAboutMeShowing: false,
+    isProjectsShowing: false,
+}
+
+toggleAboutMeShowing = () => {
+    this.setState({
+        isAboutMeShowing: !this.state.isAboutMeShowing,
+        isProjectsShowing: false
+    })
+}
+
+toggleProjectsShowing = () => {
+  this.setState({
+      isProjectsShowing: !this.state.isProjectsShowing,
+      isAboutMeShowing: false
+  })
+}
+
+  render(){
+    return (
+      <div className="App">
+        <HorizontalNav />
+        <nav>
+          <ul className="vertical-nav">
+            <li  
+              onClick={this.toggleAboutMeShowing}
+            >About Me </li>
+            <li
+              onClick={this.toggleProjectsShowing}   
+            >Projects
+            </li>
+            <li>Blog Posts </li>
+            <li>Resume </li>
+            <li>Admin </li>
+          </ul>
+        </nav>
+        {
+          this.state.isAboutMeShowing
+            ?  <AboutMe />
+            :null
+        }
+        {
+          this.state.isProjectsShowing
+            ?  <Projects />
+            :null
+        }
+      </div>
+    );
+  }
 }
 
 export default App;

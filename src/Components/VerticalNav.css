@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+
+nav {
+    display: block;
+    float: left;
+    background-color: rgb(237, 237, 245);
+    margin-top: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 100%
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif; 
+    padding: 1rem 1rem .5rem 1rem;
+    margin-bottom: 0;
+    font-weight: 200;
+    font-size: 3.5rem;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    float: left;
+    height: 100%;
+    padding: 2rem;
+}
+
+li {
+    margin: 3rem 0rem 3rem 0rem;
+    cursor: pointer
+}
+
+li :hover {
+    color: orange
+}
+
+
+
+

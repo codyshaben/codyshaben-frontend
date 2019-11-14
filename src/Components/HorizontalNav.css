@@ -1,0 +1,68 @@
+#header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 0px 10px rgb(192, 127, 30);
+    background-color: gray
+
+}
+
+#icons-container {
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 1rem
+}
+
+.icon-facebook {
+    background-image: url(../Images/iconfinder-facebook-icon.svg);
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.icon-linkedin {
+    background-image: url(../Images/iconfinder-linkedin-icon.svg);
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    margin-left: 1rem;
+    cursor: pointer
+}
+
+.icon-github {
+    background-image: url(../Images/iconfinder-github-icon.svg);
+    background-size: 100%;
+    width: 52px;
+    height: 52px;
+    margin-left: 1rem;
+    cursor: pointer;
+    margin-top: 2.5px
+}
+
+.icon-medium {
+    background-image: url(../Images/iconfinder-medium-icon.svg);
+    background-size: 100%;
+    width: 55px;
+    height: 55px;
+    margin-left: 1rem;
+    cursor: pointer;
+    margin-top: 2.5px
+}
+
+div a {
+    display: block;
+    height: 50px;
+    text-indent: -9999px;
+    object-fit: contain;
+
+}
+
+#title-cody {
+    margin-top: 0rem;
+    
+}
