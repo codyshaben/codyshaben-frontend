@@ -1,23 +1,42 @@
 .projects {
-    /* background-color: gray; */
+    background-color: lightgray;
     height: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
-    width: 50%;
+    width: 75%;
     margin-left: 15rem;
-    margin-top: 2.5rem;
+    margin-top: 5rem;
     justify-content: center;
-    padding: 1rem
+    padding: 1rem;
+    border-radius: .25rem;
+    object-fit: contain;
+    margin-bottom: 50px;
   }
 
 .project-li {
-      background-color: lightgray;
+      background-color:rgb(228, 154, 86);
       padding: 1rem;
-      border-radius: .5rem
+      border-radius: .25rem;
+      width: 29.6rem;
+      height: 20rem
   }
   
   .project-ul {
       margin-top: 0;
       margin-bottom: 0;
       padding: 1rem
+  }
+
+  .project-title {
+      border-style: solid;
+      border-top-style: none;
+      border-left-style: none;
+      border-right-style: none;
+      margin-bottom: 1rem
+  }
+
+  .project-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap
   }
 

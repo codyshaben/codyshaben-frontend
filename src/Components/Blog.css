@@ -1,22 +1,36 @@
 .blogs {
-    /* background-color: gray; */
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
     height: 100%;
-    font-family: 'Open Sans Condensed', sans-serif;
-    width: 50%;
+    width: 75%;
     margin-left: 15rem;
-    margin-top: 2.5rem;
+    margin-top: 5rem;
     justify-content: center;
-    padding: 1rem
+    padding: 1rem;
+    border-radius: .25rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 50px;
   }
 
 .blog-li {
-      background-color: lightgray;
+      background-color:rgb(228, 154, 86);
       padding: 1rem;
-      border-radius: .5rem
-  }
+      border-radius: .25rem;
+      width: 29.6rem;
+      height: 15rem
+}
   
-  .blog-ul {
+.blog-ul {
+    display: flex;
       margin-top: 0;
       margin-bottom: 0;
       padding: 1rem
-  }
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+

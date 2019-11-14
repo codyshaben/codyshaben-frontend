@@ -1,4 +1,4 @@
-.about-me {
+.resume {
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
@@ -14,11 +14,9 @@
     border-radius: .25rem;
 }
 
-img {
-    width: 25rem;
-    margin: 4rem 0 4rem 0;
-    border-radius: .25rem
+.resume-container {
+    background-image: url(../Images/resume.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px
 }
-
-
-

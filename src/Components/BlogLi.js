@@ -12,6 +12,7 @@ const BlogLi = (props) => {
                 className="medium-link"
                 href={link}
                 target='_blank'
+                rel="noopener noreferrer"
             >{link}</a>
         </li>
     )

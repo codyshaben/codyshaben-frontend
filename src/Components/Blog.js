@@ -14,8 +14,8 @@ const Blogs = (props) => {
     })
     return(
         <div className="blogs">
-            <h2>Blogs</h2>
-            {blog}
+            <h2 id="blog-title">Blog Posts</h2>
+            <div className="blog-container">{blog}</div>
         </div>
     )
 }

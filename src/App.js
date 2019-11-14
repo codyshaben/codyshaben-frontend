@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 import './App.css';
 import './Components/VerticalNav.css'
 
@@ -7,14 +8,16 @@ import HorizontalNav from './Components/HorizontalNav'
 import AboutMe from './Components/AboutMe'
 import Projects from './Components/Projects'
 import Blogs from './Components/Blog'
+import Resume from './Components/Resume'
 
 
 class App extends Component {
   state = {
     user: [],
-    isAboutMeShowing: false,
+    isAboutMeShowing: true,
     isProjectsShowing: false,
     isBlogsShowing: false,
+    isResumeShowing: false,
 }
 
 
@@ -31,7 +34,8 @@ toggleAboutMeShowing = () => {
     this.setState({
         isAboutMeShowing: !this.state.isAboutMeShowing,
         isProjectsShowing: false,
-        isBlogsShowing: false
+        isBlogsShowing: false,
+        isResumeShowing: false,
     })
 }
 
@@ -39,7 +43,8 @@ toggleProjectsShowing = () => {
   this.setState({
       isProjectsShowing: !this.state.isProjectsShowing,
       isAboutMeShowing: false,
-      isBlogsShowing: false
+      isBlogsShowing: false,
+      isResumeShowing: false,
   })
 }
 
@@ -47,8 +52,17 @@ toggleBlogsShowing = () => {
   this.setState({
       isBlogsShowing: !this.state.isBlogsShowing,
       isAboutMeShowing: false,
-      isProjectsShowing: false
+      isProjectsShowing: false,
+      isResumeShowing: false,
+  })
+}
 
+toggleResumeShowing = () => {
+  this.setState({
+      isResumeShowing: !this.state.isResumeShowing,
+      isAboutMeShowing: false,
+      isProjectsShowing: false,
+      isBlogsShowing: false,
   })
 }
 
@@ -70,8 +84,9 @@ toggleBlogsShowing = () => {
             <li
               onClick={this.toggleBlogsShowing}   
               className="nav-li"
-            >Blog Posts </li>
+            >Blogs </li>
             <li
+              onClick={this.toggleResumeShowing}   
               className="nav-li"
             >Resume </li>
             <li
@@ -94,6 +109,13 @@ toggleBlogsShowing = () => {
         {
           this.state.isBlogsShowing
             ?  <Blogs
+                user={this.state.user}
+            />
+            :null
+        }
+        {
+          this.state.isResumeShowing
+            ?  <Resume
                 user={this.state.user}
             />
             :null

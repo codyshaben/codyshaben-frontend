@@ -5,13 +5,14 @@ const ProjectLi = (props) => {
     
     return(
         <li className="project-li">
-            <h4>{title}</h4>
-            <p>{description}</p>
-            <p>Technology: {technology}</p>
+            <h3 className="project-title">{title}</h3>
+            <p><b>Description: </b>{description}</p>
+            <p><b>Technology: </b>{technology}</p>
             <p>Check it out!</p>
             <a
                 href={link}
                 target='_blank'
+                rel="noopener noreferrer"
             >{link}</a>
         </li>
     )
