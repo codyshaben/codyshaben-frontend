@@ -1,4 +1,4 @@
-.projects {
+.blogs {
     /* background-color: gray; */
     height: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -9,15 +9,14 @@
     padding: 1rem
   }
 
-.project-li {
+.blog-li {
       background-color: lightgray;
       padding: 1rem;
       border-radius: .5rem
   }
   
-  .project-ul {
+  .blog-ul {
       margin-top: 0;
       margin-bottom: 0;
       padding: 1rem
   }
-

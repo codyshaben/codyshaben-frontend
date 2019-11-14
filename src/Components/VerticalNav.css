@@ -19,22 +19,22 @@ h1 {
     font-size: 3.5rem;
 }
 
-ul {
-    list-style-type: none;
+.vertical-nav {
     display: block;
     float: left;
     height: 100%;
     padding: 2rem;
 }
 
-li {
+.nav-li {
     margin: 3rem 0rem 3rem 0rem;
     cursor: pointer
 }
 
-li :hover {
-    color: orange
+ul {
+    list-style-type: none;
 }
+
 
 
 

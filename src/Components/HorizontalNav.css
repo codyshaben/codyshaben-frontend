@@ -57,9 +57,8 @@
 div a {
     display: block;
     height: 50px;
-    text-indent: -9999px;
+    /* text-indent: -9999px; */
     object-fit: contain;
-
 }
 
 #title-cody {

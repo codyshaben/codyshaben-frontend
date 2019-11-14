@@ -1,0 +1,22 @@
+.contact-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.5rem
+
+}
+
+input {
+    height: 1.25rem;
+
+}
+
+textarea {
+    height: 4rem;
+}
+
+#input-button {
+    width: 5rem;
+    align-self: center;
+    margin-top: 1.5rem
+}
