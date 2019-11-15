@@ -1,23 +1,40 @@
-.about-me {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-bottom: 50px;
-    padding: 2rem;
-    width: 40rem;
+    padding: 3rem;
     margin-top: 5rem;
-    margin-left: 30%;
+    margin-left: 15%;
+    margin-right: 5%;
     font-family: 'Open Sans Condensed', sans-serif;
     background-color: lightgray;
     border-radius: .25rem;
 }
 
 img {
-    width: 25rem;
-    /* margin: 4rem 0 4rem 0; */
+    object-fit: contain;
+    background-color: lightgray
 }
 
 .submit-message {
     cursor: pointer;
-    font-size: 2rem
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem
+}
+
+.about-me {
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    vertical-align: center;
+    background-color: rgb(228, 154, 86);
+    border-radius: .25rem;
+}
+
+#about-me-p {
+    margin-top: 3rem;
+    font-size: 1.25rem
 }

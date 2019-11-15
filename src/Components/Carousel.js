@@ -3,8 +3,9 @@ import { Carousel } from "react-responsive-carousel";
 import './Carousel.css'
 
 export default () => (
-  <Carousel autoPlay>
-    <div>
+  // <Carousel autoPlay repeat>
+  <Carousel autoPlay showArrows={true}>
+    <div className="carousel">
       <img id="image-family" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/51346013_10101741428196437_1556390302896357376_n.jpg?_nc_cat=111&_nc_oc=AQnJ_SiAkxQ3M4Hh9s8MvttMtRnlvNLVwpQLXNU2MF31mK0I_LWPaybYuPCheOXWDf4&_nc_ht=scontent-ort2-1.xx&oh=a0dea33c2742a80dc20859f1612a174a&oe=5E8993B2"/>
     </div>
     <div>

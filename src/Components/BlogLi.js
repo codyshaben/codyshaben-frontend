@@ -6,8 +6,8 @@ const BlogLi = (props) => {
     return(
         <li className="blog-li">
             <h4 className="blog-title">{title}</h4>
-            <p>{description}</p>
-            <p>Check it out!</p>
+            <p className="blog-info">{description}</p>
+            <p className="blog-info">Check it out!</p>
             <a
                 className="medium-link"
                 href={link}

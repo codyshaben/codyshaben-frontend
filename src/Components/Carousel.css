@@ -1,5 +1,17 @@
 .image {
-  max-height: 500px
+  max-height: 760px;
+  background-color: lightgray
 }
 
 
+.carousel {
+  background-color: lightgray;
+  object-fit: cover;
+}
+
+.slide {
+  background-color: lightgray;
+  object-fit: cover;
+  width: 50px
+
+}

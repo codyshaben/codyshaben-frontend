@@ -17,7 +17,7 @@
       padding: 1rem;
       border-radius: .25rem;
       width: 29.6rem;
-      height: 20rem
+      height: 25rem
   }
   
   .project-ul {
@@ -41,3 +41,6 @@
       justify-content: center
   }
 
+  .project-info {
+      font-size: 1.25rem
+  }

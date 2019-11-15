@@ -5,6 +5,8 @@
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     height: 100%;
     width: 50%;
     margin-top: 5rem;
@@ -18,7 +20,7 @@
     background-image: url(../Images/resume.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 1200px;
+    height: 1000px;
     border: solid;
-    border-color:  rgb(228, 154, 86)
+    border-color:  rgb(228, 154, 86);
 }
