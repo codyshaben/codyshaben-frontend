@@ -5,7 +5,7 @@ const BlogLi = (props) => {
 
     return(
         <li className="blog-li">
-            <h4>{title}</h4>
+            <h4 className="blog-title">{title}</h4>
             <p>{description}</p>
             <p>Check it out!</p>
             <a

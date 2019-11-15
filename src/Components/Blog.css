@@ -13,24 +13,38 @@
     margin-bottom: 50px;
   }
 
-.blog-li {
-      background-color:rgb(228, 154, 86);
-      padding: 1rem;
-      border-radius: .25rem;
-      width: 29.6rem;
-      height: 15rem
+  .blog-li {
+    background-color:rgb(228, 154, 86);
+    padding: 1rem;
+    border-radius: .25rem;
+    width: 29.6rem;
+    height: 20rem
 }
-  
+
 .blog-ul {
-    display: flex;
-      margin-top: 0;
-      margin-bottom: 0;
-      padding: 1rem
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1rem
 }
+
+.blog-title {
+  border-style: solid;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  margin-bottom: 1rem
+}
+
 
 .blog-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: center
 }
+
+h4 {
+  font-size: 1.5rem
+}
+
 

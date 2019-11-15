@@ -32,7 +32,7 @@ componentDidMount(){
 
 toggleAboutMeShowing = () => {
     this.setState({
-        isAboutMeShowing: !this.state.isAboutMeShowing,
+        isAboutMeShowing: true,
         isProjectsShowing: false,
         isBlogsShowing: false,
         isResumeShowing: false,

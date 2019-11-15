@@ -5,7 +5,7 @@ const ProjectLi = (props) => {
     
     return(
         <li className="project-li">
-            <h3 className="project-title">{title}</h3>
+            <h4 className="project-title">{title}</h4>
             <p><b>Description: </b>{description}</p>
             <p><b>Technology: </b>{technology}</p>
             <p>Check it out!</p>
