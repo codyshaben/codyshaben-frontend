@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 
 
-nav {
-    display: block;
-    float: left;
-    background-color: rgb(237, 237, 245);
-    margin-top: 8%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    height: 100%
-}
+
 
 h1 {
     font-family: 'Open Sans Condensed', sans-serif; 
@@ -20,15 +12,16 @@ h1 {
 }
 
 .vertical-nav {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
     float: left;
-    height: 100%;
     padding: 2rem;
 }
 
 .nav-li {
-    margin: 3rem 0rem 3rem 0rem;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
 .nav-li:hover {

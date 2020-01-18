@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 
 import './AboutMe.css'
 import EmailForm from './EmailForm'
-import Carousel from "./Carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 class AboutMe extends Component {
     state = {
@@ -39,10 +38,7 @@ class AboutMe extends Component {
                         :null
                 }
                 </div>
-                
-                <Carousel />
-                {/* <img className="picture-slides" alt="Not Loading" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/51346013_10101741428196437_1556390302896357376_n.jpg?_nc_cat=111&_nc_oc=AQnJ_SiAkxQ3M4Hh9s8MvttMtRnlvNLVwpQLXNU2MF31mK0I_LWPaybYuPCheOXWDf4&_nc_ht=scontent-ort2-1.xx&oh=a0dea33c2742a80dc20859f1612a174a&oe=5E8993B2"></img> */}
-                
+    
             </div>
         )
     }
