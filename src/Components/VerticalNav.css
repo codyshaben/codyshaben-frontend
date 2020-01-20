@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap');
 
 h1 {
-    font-family: 'Open Sans Condensed', sans-serif; 
     padding: 1rem 1rem .5rem 1rem;
     margin-bottom: 0;
     font-weight: 200;
-    font-size: 3.5rem;
+    font-size: 5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .vertical-nav {
@@ -14,6 +14,9 @@ h1 {
     vertical-align: middle;
     float: left;
     padding: 2rem;
+    font-size: 1.75rem;
+    color: whitesmoke;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .nav-li {

@@ -12,7 +12,8 @@
   }
 
   .blog-li {
-    background-color:rgb(228, 154, 86);
+    background-color: rgb(248, 181, 118);
+    opacity: .8;
     padding: 1rem;
     border-radius: .25rem;
     width: 29.6rem;

@@ -11,11 +11,12 @@
   }
 
 .project-li {
-      background-color:rgb(228, 154, 86);
+      background-color: rgb(248, 181, 118);
       padding: 1rem;
       border-radius: .25rem;
       width: 29.6rem;
-      height: 25rem
+      height: 25rem;
+      opacity: .8;
   }
   
   .project-ul {

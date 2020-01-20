@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap');
+
 .about {
     display: flex;
     flex-direction: row;
@@ -27,8 +29,9 @@ img {
     margin-bottom: 2rem;
     padding: 2rem;
     vertical-align: center;
-    background-color: rgb(228, 154, 86);
+    background-color: rgb(248, 181, 118);
     border-radius: .25rem;
+    opacity: .8;
 }
 
 #about-me-p {
