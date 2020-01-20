@@ -22,7 +22,7 @@ class App extends Component {
 
 
 componentDidMount(){
-  const url = "http://localhost:3000/users/1"
+  const url = "https://codyshaben-backend.herokuapp.com/users"
   fetch(url)
       .then(response => response.json())
       .then(user => {
