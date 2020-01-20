@@ -5,8 +5,8 @@ import './Resume.css'
 const Resume = () => {
     return(
         <div className='resume'>
-            <h2>Resume</h2>
-            <div className="resume-container"></div>
+            <img id='resume' src={require('../Images/cody_shaben_resume_1_20_20.png')}/>
+            {/* <div className="resume-container"></div> */}
         </div>
     )
 }
