@@ -7,7 +7,6 @@ const HorizontalNav = () => {
         <header className="horizontal-div">
             <div id="header-container">
                 <h1 id="title-cody">Cody Shaben</h1>
-                
                 <div id="icons-container">
                     <a 
                         href="https://www.linkedin.com/in/codyshaben/" className="icons icon-linkedin"
@@ -34,6 +33,7 @@ const HorizontalNav = () => {
                     </a>
                 </div>
             </div>
+            <h6 id="dev"> Full Stack Developer</h6>
         </header>
     )
 }
