@@ -13,15 +13,16 @@ h1 {
     flex-direction: column;
     vertical-align: middle;
     float: left;
-    padding: 2rem;
-    font-size: 1.75rem;
-    color: whitesmoke;
-    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 3rem;
 }
 
 .nav-li {
+    text-decoration: none;
     cursor: pointer;
     margin-bottom: 40px;
+    font-size: 1.75rem;
+    color: whitesmoke;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .nav-li:hover {
@@ -29,7 +30,7 @@ h1 {
 }
 
 ul {
-    margin-top: 10rem;
+    margin-top: 6rem;
     list-style-type: none;
 }
 
