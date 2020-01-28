@@ -37,7 +37,7 @@ class VerticalNav extends Component {
     render(){
         return(
             <Router>
-                <div>
+                <div className='main-page'>
                     <nav>
                         <ul className="vertical-nav">
                         <li >
@@ -56,11 +56,6 @@ class VerticalNav extends Component {
 
                     </nav>
                     <Switch>
-                        <Route path='/about'>
-                            <AboutMe 
-                                user={this.state.user}
-                            />
-                        </Route>
                         <Route path='/projects'>
                             <Projects 
                                 user={this.state.user}
@@ -73,6 +68,11 @@ class VerticalNav extends Component {
                         </Route>
                         <Route path='/resume'>
                             <Resume 
+                                user={this.state.user}
+                            />
+                        </Route>
+                        <Route path='/'>
+                            <AboutMe 
                                 user={this.state.user}
                             />
                         </Route>

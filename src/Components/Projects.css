@@ -1,8 +1,6 @@
 .projects {
     height: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
-    width: 75%;
-    margin-left: 15%;
     justify-content: center;
     padding: 1rem;
     border-radius: .25rem;
@@ -20,7 +18,7 @@
   }
   
   .project-ul {
-      margin-top: 5rem;
+      margin-top: 0rem;
       margin-bottom: 0;
       padding: 1rem
   }
