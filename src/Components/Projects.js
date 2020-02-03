@@ -6,7 +6,6 @@ import ProjectLi from './ProjectLi'
 
 
 const Projects = (props) => {
-    console.log(props)
     const { user } = props
     const project = user.repositories.map(project => {
         return <ul className="project-ul" key={project.id}>

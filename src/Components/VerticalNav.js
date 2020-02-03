@@ -1,10 +1,10 @@
-import React, {Component} from 'react'
-
+import React from 'react'
 import './VerticalNav.css'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
 import Blogs from './Blog'
 import Resume from './Resume'
+
 
 import {
     BrowserRouter as Router,
@@ -14,27 +14,8 @@ import {
   } from "react-router-dom";
   
 
-class VerticalNav extends Component {
-    state = {
-        user: [],
-        // isAboutMeShowing: true,
-        // isProjectsShowing: false,
-        // isBlogsShowing: false,
-        // isResumeShowing: false,
-    }
-
-    componentDidMount(){
-        const url = "https://codyshaben-backend.herokuapp.com/users/1"
-        fetch(url)
-            .then(response => response.json())
-            .then(user => {
-                console.log(user)
-              this.setState({ user })
-            })
-      }
-      
-
-    render(){
+const VerticalNav = (props) => { 
+        const { user } = props    
         return(
             <Router>
                 <div className='main-page'>
@@ -58,22 +39,22 @@ class VerticalNav extends Component {
                     <Switch>
                         <Route path='/projects'>
                             <Projects 
-                                user={this.state.user}
+                                user={user}
                             />
                         </Route>
                         <Route path='/blogs'>
                             <Blogs 
-                                user={this.state.user}
+                                user={user}
                             />
                         </Route>
                         <Route path='/resume'>
                             <Resume 
-                                user={this.state.user}
+                                user={user}
                             />
                         </Route>
                         <Route path='/'>
                             <AboutMe 
-                                user={this.state.user}
+                                user={user}
                             />
                         </Route>
                     </Switch>
@@ -81,6 +62,6 @@ class VerticalNav extends Component {
             </Router>
         )
     }
-}
+
 
 export default VerticalNav
